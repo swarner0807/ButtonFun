@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB606ED15F69ED10010974D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB606EC15F69ED10010974D /* UIKit.framework */; };
+		1DB606EF15F69ED10010974D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB606EE15F69ED10010974D /* Foundation.framework */; };
+		1DB606F115F69ED10010974D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB606F015F69ED10010974D /* CoreGraphics.framework */; };
+		1DB606F715F69ED10010974D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB606F515F69ED10010974D /* InfoPlist.strings */; };
+		1DB606F915F69ED10010974D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB606F815F69ED10010974D /* main.m */; };
+		1DB606FD15F69ED10010974D /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB606FC15F69ED10010974D /* BIDAppDelegate.m */; };
+		1DB6070015F69ED10010974D /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB606FF15F69ED10010974D /* BIDViewController.m */; };
+		1DB6070315F69ED10010974D /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB6070115F69ED10010974D /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DB606E815F69ED10010974D /* ButtonFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB606EC15F69ED10010974D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DB606EE15F69ED10010974D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DB606F015F69ED10010974D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DB606F415F69ED10010974D /* ButtonFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonFun-Info.plist"; sourceTree = "<group>"; };
+		1DB606F615F69ED10010974D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DB606F815F69ED10010974D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB606FA15F69ED10010974D /* ButtonFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonFun-Prefix.pch"; sourceTree = "<group>"; };
+		1DB606FB15F69ED10010974D /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		1DB606FC15F69ED10010974D /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		1DB606FE15F69ED10010974D /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		1DB606FF15F69ED10010974D /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		1DB6070215F69ED10010974D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB606E515F69ED10010974D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB606ED15F69ED10010974D /* UIKit.framework in Frameworks */,
+				1DB606EF15F69ED10010974D /* Foundation.framework in Frameworks */,
+				1DB606F115F69ED10010974D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB606DD15F69ED10010974D = {
+			isa = PBXGroup;
+			children = (
+				1DB606F215F69ED10010974D /* ButtonFun */,
+				1DB606EB15F69ED10010974D /* Frameworks */,
+				1DB606E915F69ED10010974D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB606E915F69ED10010974D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB606E815F69ED10010974D /* ButtonFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB606EB15F69ED10010974D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB606EC15F69ED10010974D /* UIKit.framework */,
+				1DB606EE15F69ED10010974D /* Foundation.framework */,
+				1DB606F015F69ED10010974D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB606F215F69ED10010974D /* ButtonFun */ = {
+			isa = PBXGroup;
+			children = (
+				1DB606FB15F69ED10010974D /* BIDAppDelegate.h */,
+				1DB606FC15F69ED10010974D /* BIDAppDelegate.m */,
+				1DB606FE15F69ED10010974D /* BIDViewController.h */,
+				1DB606FF15F69ED10010974D /* BIDViewController.m */,
+				1DB6070115F69ED10010974D /* BIDViewController.xib */,
+				1DB606F315F69ED10010974D /* Supporting Files */,
+			);
+			path = ButtonFun;
+			sourceTree = "<group>";
+		};
+		1DB606F315F69ED10010974D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB606F415F69ED10010974D /* ButtonFun-Info.plist */,
+				1DB606F515F69ED10010974D /* InfoPlist.strings */,
+				1DB606F815F69ED10010974D /* main.m */,
+				1DB606FA15F69ED10010974D /* ButtonFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB606E715F69ED10010974D /* ButtonFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB6070615F69ED10010974D /* Build configuration list for PBXNativeTarget "ButtonFun" */;
+			buildPhases = (
+				1DB606E415F69ED10010974D /* Sources */,
+				1DB606E515F69ED10010974D /* Frameworks */,
+				1DB606E615F69ED10010974D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonFun;
+			productName = ButtonFun;
+			productReference = 1DB606E815F69ED10010974D /* ButtonFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB606DF15F69ED10010974D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = edu.creighton.cs;
+			};
+			buildConfigurationList = 1DB606E215F69ED10010974D /* Build configuration list for PBXProject "ButtonFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DB606DD15F69ED10010974D;
+			productRefGroup = 1DB606E915F69ED10010974D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB606E715F69ED10010974D /* ButtonFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB606E615F69ED10010974D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB606F715F69ED10010974D /* InfoPlist.strings in Resources */,
+				1DB6070315F69ED10010974D /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB606E415F69ED10010974D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB606F915F69ED10010974D /* main.m in Sources */,
+				1DB606FD15F69ED10010974D /* BIDAppDelegate.m in Sources */,
+				1DB6070015F69ED10010974D /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DB606F515F69ED10010974D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB606F615F69ED10010974D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DB6070115F69ED10010974D /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB6070215F69ED10010974D /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB6070415F69ED10010974D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB6070515F69ED10010974D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB6070715F69ED10010974D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DB6070815F69ED10010974D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonFun/ButtonFun-Prefix.pch";
+				INFOPLIST_FILE = "ButtonFun/ButtonFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB606E215F69ED10010974D /* Build configuration list for PBXProject "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB6070415F69ED10010974D /* Debug */,
+				1DB6070515F69ED10010974D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB6070615F69ED10010974D /* Build configuration list for PBXNativeTarget "ButtonFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB6070715F69ED10010974D /* Debug */,
+				1DB6070815F69ED10010974D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB606DF15F69ED10010974D /* Project object */;
+}
