@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDViewController : UIViewController
+- (IBAction)buttonPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *statusText;
 
 @end
